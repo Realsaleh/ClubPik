@@ -33,6 +33,12 @@
   background-color: #161c2d !important;
 }
 
+.custom-logo-size {
+  width: 230px;
+  height: 230px;
+}
+
+
 .custom-color {
   color: #161c2d;
   
@@ -1715,6 +1721,7 @@ button:not(:disabled) {
 .subcribe-form input {
   padding: 14px 20px;
   width: 100%;
+  font-size: 14px;
   color: #3c4858 !important;
   border: none;
   outline: none !important;
@@ -2056,8 +2063,9 @@ p {
 }
 
 .title-heading .heading {
-  font-size: 45px;
+  font-size: 33px;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .title-heading .para-desc {
@@ -2178,7 +2186,7 @@ p {
     padding: 60px 0;
   }
   .title-heading .heading {
-    font-size: 35px !important;
+    font-size: 27px !important;
   }
   .title-heading .para-desc {
     font-size: 18px;
@@ -2435,9 +2443,9 @@ p {
 }
 
 #topnav.nav-sticky {
-  background: #ffffff;
-  -webkit-box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
-          box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+  background: #f2efe4;
+  -webkit-box-shadow: #f2efe4;
+          box-shadow: #f2efe4;
 }
 
 #topnav.nav-sticky .navigation-menu.nav-light > li > a {
